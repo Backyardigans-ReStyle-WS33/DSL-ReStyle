@@ -146,6 +146,19 @@ views {
             include *  
            autolayout tb
         }
+                
+        styles {
+            element "DataU"{
+                shape "Cylinder" 
+                background "#ec0e0e" 
+                color "#ffffff"
+            }
+            element "DataP"{
+                shape "Cylinder" 
+                background "#ec0e0e" 
+                color "#ffffff"
+            }
+        }
         theme default
         
     }
